@@ -1,0 +1,120 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  --primaryColor: #2C63AE;
+  --secondaryColor: #4EAC7F;
+  --textColor: #000005;
+  --textSecondaryColor: #6D6D6D;
+  color: var(--textColor);
+}
+.text-secondary {
+  color: var(--textSecondaryColor)!important;
+}
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+p {
+  font-size: 0.8125rem;
+}
+.pt-3 {
+  padding-top: 3rem;
+}
+.container {
+  max-width: 765px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.user {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+.user img {
+  margin-right: 0.5rem;
+}
+.user p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.hr-1 {
+  border: 0;
+  border-bottom: 1px solid #6D6D6D;
+}
+
+.row {
+  display: flex;
+  margin: 0 -1rem;
+  align-items: center;
+}
+.row > [class^="col-"] {
+  padding: 0 1rem;
+}
+.col-main {
+  width: 60%;
+}
+.col-time {
+  width: 20%;
+}
+.col-action {
+  width: 20%;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #6D6D6D;
+  margin: 0;
+  font-weight: normal;
+}
+
+.b-item {
+  padding: 1.3rem 0;
+}
+.b-item + .b-item {
+  border-top: 1px solid #E0E0E0;
+}
+.b-item__title {
+  font-size: 1rem;
+  margin-top: 0;
+  font-weight: normal;
+}
+.b-item__title img {
+  margin-right: 0.3rem;
+}
+.b-item__owner p {
+  margin-bottom: 0;
+}
+.b-item__time {
+  font-size:
+}
+.b-item__type {
+  display: table;
+  font-size: 0.8125rem;
+  color: white;
+  text-transform: uppercase;
+  background: var(--secondaryColor);
+  border-radius: 2rem;
+  padding: 5px 25px;
+  margin-bottom: 0.6rem;
+  border: 1px solid var(--secondaryColor);
+  transition: all .2s ease;
+}
+.b-item__action {
+  display: flex;
+  align-items: center;
+  font-size: 0.8125rem;
+  color: var(--textSecondaryColor);
+}
+.b-item__action img {
+  margin-right: 0.3rem;
+}
+.b-item__action:hover {
+  color: red;
+
+}
+.b-item__action_add:hover {
+  color: var(--secondaryColor);
+}
