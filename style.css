@@ -118,3 +118,22 @@ h3 {
 .b-item__action_add:hover {
   color: var(--secondaryColor);
 }
+@media (min-width: 576px) {
+  .d-desktop-none {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .user {
+    padding: 1rem 0;
+  }
+  .d-mobile-none {
+    display: none;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .row > [class^="col-"] {
+    width: 100%;
+  }
+}
